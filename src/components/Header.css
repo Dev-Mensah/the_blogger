@@ -1,0 +1,14 @@
+.header_top{
+    width: calc(100% - 20px);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid yellow;
+}
+
+.logo{
+    cursor: pointer;
+}
