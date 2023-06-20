@@ -1,4 +1,121 @@
 .trend_bar_wrapper{
     flex: 0.2;
-    border-left: 1px solid yellow;
+    width: 20%;
+    height: calc(99vh - 100px);
+    border-left: 1px solid #ccc;
+    background-color: #EBF0F7;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.25px;
+}
+
+.create_btn_wrapper{
+    width: calc(100% -22px);
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: end;
+    /* border-bottom: 1px solid #fcfcfc; */
+}
+
+.create_btn_wrapper>button{
+    width: 100px;
+    font-size: calc(100% - 3px);
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiButton-endIcon>svg{
+    font-size: 10px;
+}
+
+  
+  .search_Wrapper {
+    width: calc(99% - 10px);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 1px;
+    margin: 0 5px 10px 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+}
+
+.srhInput {
+    height: 37px;
+    padding: 0 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.srhIcon__holder {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    background-color: #1c0df4;
+}
+  
+.list_wrapper{
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+.list_head{
+    text-decoration: underline;
+}
+
+.list_wrapper>ul{
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+
+.list_container>li{
+    height: 120px;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    border: 1px solid #cccccc83;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+.list_top{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.list_top>span{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    border: 1px solid #FBA63C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_bottom{
+    height: 70px;
+    margin-left: 40px;
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

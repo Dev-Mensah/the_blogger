@@ -1,0 +1,91 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, 0.562); 
+}
+
+.modal_content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 6px;
+    width: 70%;
+    margin-top: 10px;
+    /* height: 90%; */
+}
+
+/* form{
+    overflow: hidden;
+} */
+
+/* Styles for the form */
+.form_input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.form_input>label{
+    font-weight: bold;
+}
+
+.form_input>input, .form_input>select{
+    height: 35px;
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    outline: none;
+    transition: box-shadow 300ms;
+}
+
+.form_input>input:focus, .form_input>select:focus{
+    box-shadow: 0 10px 25px -5px rgba(5, 170, 129, 0.808)
+}
+
+.form_input>.richText{
+    height: 200px;
+    /* overflow: hidden; */
+    /* background-color: red; */
+}
+
+.ql-container.ql-snow{
+    height: 155px;
+    /* background-color: blue; */
+}
+
+
+.form_submit {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_submit>input, .form_submit>button{
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    transition: box-shadow 300ms;
+}
+
+.form_submit>button{
+    background-color: rgb(214, 47, 47);
+}
+
+.form_submit>input:hover, .form_submit>button:hover{
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.808)
+}
